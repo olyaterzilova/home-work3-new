@@ -190,10 +190,7 @@ button {
   max-width: 496px;
   text-align: center;
 }
-hero-section-container {
-  padding: 188px 0;
-  text-align: center;
-}
+
 /* ========button============= */
 .modal-button {
   font-family: 'Roboto', sans-serif;
