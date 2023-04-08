@@ -262,10 +262,10 @@ hero-section-container {
 }
 .main-section-list {
   display: flex;
-  flex-wrap: wrap;
   gap: 24px;
 }
-.main-section-item:not(:last-child) {
+.portfolio-section-iten {
+  width: calc((100%-8 * 24) / 9);
 }
 
 /* ======/foutth section======== */
