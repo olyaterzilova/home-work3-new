@@ -104,6 +104,7 @@ button {
 .logo-footer {
   display: block;
   margin-bottom: 16px;
+  display: inline-block;
 }
 /* =========/logo============ */
 
@@ -148,6 +149,7 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
+  padding: 24px 0;
 }
 .menu-link:hover,
 .menu-link:focus {
@@ -161,6 +163,7 @@ button {
 .address-list {
   display: flex;
   align-items: center;
+  gap: 40px;
 }
 .contacts {
   font-weight: 400;
@@ -276,6 +279,16 @@ hero-section-container {
 .main-section-list {
   display: flex;
   gap: 24px;
+}
+.section-wrapper {
+  padding: 32px 16px;
+  border-radius: 0px 0px 4px 4px;
+}
+.section-title {
+  text-align: center;
+}
+.main-description {
+  text-align: center;
 }
 
 /* ======/foutth section======== */
