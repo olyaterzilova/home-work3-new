@@ -84,6 +84,7 @@ button {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--primary-button);
+  margin-right: 76px;
 }
 .logo-part-two {
   font-weight: 800;
@@ -194,6 +195,13 @@ button {
 }
 hero-section-container {
   text-align: center;
+}
+
+.page-nav {
+  gap: 40px;
+}
+.header {
+  padding: 24px 0;
 }
 /* ========button============= */
 .modal-button {
