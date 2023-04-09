@@ -244,7 +244,7 @@ hero-section-container {
   display: flex;
   letter-spacing: 0.04em;
   text-align: center;
-
+  border-radius: 4px;
   color: var(--primary-button);
   background-color: var(--logo-color);
 }
@@ -252,12 +252,15 @@ hero-section-container {
 .portfolio-button:focus {
   color: var(--portfolio-button-color);
   background-color: var(--background-button);
+  border: 1px solid transparent;
 }
 /* ========/button============= */
 
 /* ==========/hero====================== */
 /* ==============second-section========== */
-
+.main-section-item {
+  width: calc((100% - 72px) / 4);
+}
 /* ==============/second-section========== */
 /* ============third-section============= */
 .padding-section-three {
@@ -313,4 +316,11 @@ hero-section-container {
 .logo-footer {
   display: inline-block;
   margin-bottom: 16px;
+}
+.first-portfolio-section {
+  padding: 96px 0 120px;
+}
+.portfolio-button {
+  padding: 12px 24px;
+  border: 1px solid #e7e9fc;
 }
