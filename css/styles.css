@@ -85,6 +85,7 @@ button {
   text-transform: uppercase;
   color: var(--primary-button);
   margin-right: 76px;
+  padding: 24px 0;
 }
 .logo-part-two {
   font-weight: 800;
@@ -202,6 +203,7 @@ hero-section-container {
 }
 .header {
   padding: 24px 0;
+  border-bottom: 1px solid #e7e9fc;
 }
 /* ========button============= */
 .modal-button {
