@@ -324,7 +324,7 @@ hero-section-container {
 .portfolio-section-item-one {
   width: calc(100%-4 * 24) / 5;
 }
-.portfolio-section-item {
+.portfolio-section-item :not(:last-child) {
   width: calc(100%-8 * 24) / 9;
 }
 .first-portfolio-section {
