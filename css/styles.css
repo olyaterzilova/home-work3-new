@@ -55,9 +55,19 @@ button {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
-
+  margin-bottom: 8px;
   text-align: left;
 }
+.section-title-fourth {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color);
+  margin-bottom: 8px;
+  text-align: center;
+}
+
 .main-description {
   font-weight: 400;
   font-size: 16px;
