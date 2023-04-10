@@ -321,10 +321,19 @@ hero-section-container {
   margin-right: auto;
   row-gap: 48px;
 }
+.portfolio-section-list-one {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 24px;
+  margin-bottom: 72px;
+  margin-left: auto;
+  margin-right: auto;
+}
 .portfolio-section-item-one {
   width: calc(100%-4 * 24) / 5;
 }
-.portfolio-section-item :not(:last-child) {
+.portfolio-section-item {
   width: calc(100%-8 * 24) / 9;
 }
 .first-portfolio-section {
