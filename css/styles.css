@@ -55,7 +55,8 @@ button {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--primary-text-color);
-  margin-bottom: 8px;
+
+  text-align: left;
 }
 .main-description {
   font-weight: 400;
@@ -85,7 +86,6 @@ button {
   text-transform: uppercase;
   color: var(--primary-button);
   margin-right: 76px;
-  padding: 24px 0;
 }
 .logo-part-two {
   font-weight: 800;
@@ -114,18 +114,13 @@ button {
   display: flex;
   align-items: center;
 }
-.header {
-  padding-top: 24px;
-  padding-bottom: 24px;
-}
+
 .menu-item:not(:last-child) {
   margin-right: 40px;
-  width: calc((100% - 72px) / 4);
 }
 .page-nav {
   display: flex;
   align-items: center;
-  gap: 40px;
 }
 .nav-menu {
   display: flex;
@@ -172,7 +167,6 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--secondary-text-color);
-  margin-left: 40px;
 }
 .contacts:hover,
 .contacts:focus {
@@ -283,12 +277,13 @@ hero-section-container {
 .section-wrapper {
   padding: 32px 16px;
   border-radius: 0px 0px 4px 4px;
+  background-color: #ffffff;
 }
 .section-title {
-  text-align: center;
+  text-align: left;
 }
 .main-description {
-  text-align: center;
+  text-align: left;
 }
 
 /* ======/foutth section======== */
