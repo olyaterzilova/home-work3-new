@@ -216,9 +216,6 @@ hero-section-container {
   text-align: center;
 }
 
-.page-nav {
-  gap: 40px;
-}
 .header {
   padding: 24px 0;
   border-bottom: 1px solid #e7e9fc;
@@ -360,5 +357,4 @@ hero-section-container {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
-  margin-bottom: 8px;
 }
